@@ -1,0 +1,11 @@
+Package: MYFUNC
+Type: Package
+Title: TITILE
+Version: 0.1.0
+Author: R
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Brief
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
