@@ -48,13 +48,9 @@ Create a folder "intermediate_results" and set the working directory of the RStu
 to this folder.For reproducing the .RData files, run the R script "master_script.R".
 The .RData files will be saved into the folder "intermediate_results".
     
-  
     "Table3_a3_b2.RData" has been used to reproduce the part a=3, b=2 of the Table 3.
-
     "Table3_a3_b3.RData" has been used to reproduce the part a=3, b=3 of the Table 3.
-
     "Table3_a3_b4.RData" has been used to reproduce the part a=3, b=4 of the Table 3.
-
      
     "figure2_subplot1.RData" has been used to reproduce subplot 1 of Figure 2; 
     "figure2_subplot2.RData" has been used to reproduce subplot 2 of Figure 2;
@@ -109,6 +105,15 @@ The .RData files will be saved into the folder "intermediate_results".
 
     "supplement_figure4.RData" has been used to reproduce
      Figure 4 of the Supplementary Material.
+
+The code is written in R with the following software versions:
+R version 4.2.3 (2023-03-15 ucrt)
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+
+
+
+
 
 
 
