@@ -62,7 +62,6 @@ code line "cl<-makeCluster(16)" in the R scripts (i)-(vi).
     
 
     
-
 The code is written in R with the following software versions:
 R version 4.2.3 (2023-03-15 ucrt)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
