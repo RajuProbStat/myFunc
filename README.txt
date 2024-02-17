@@ -64,6 +64,69 @@ The code is written in R with the following software versions:
 R version 4.2.3 (2023-03-15 ucrt)
 Platform: x86_64-w64-mingw32/x64 (64-bit)
 
+Matrix products: default
+
+locale:
+ [1] LC_COLLATE=English_India.utf8  LC_CTYPE=English_India.utf8
+ [3] LC_MONETARY=English_India.utf8 LC_NUMERIC=C
+ [5] LC_TIME=English_India.utf8
+
+attached base packages:
+ [1] parallel stats    graphics   grDevices utils   datasets  methods
+ [8] base
+
+other attached packages:
+ [1] latex2exp_0.9.6  doParallel_1.0.17 iterators_1.0.14  foreach_1.5.2
+ [5] matlib_0.9.6     Iso_0.0-21        kableExtra_1.3.4  knitr_1.45
+
+loaded via a namespace (and not attached):
+  [1] compiler_4.2.3    base64enc_0.1-3   tools_4.2.3       digest_0.6.31
+  [5] jsonlite_1.8.4    evaluate_0.23     lifecycle_1.0.4   viridisLite_0.4.2
+  [9] rlang_1.1.0       cli_3.6.1         rstudioapi_0.15.0 yaml_2.3.7
+ [13] xfun_0.40         fastmap_1.1.1     httr_1.4.6        stringr_1.5.1
+ [17] xml2_1.3.5        htmlwidgets_1.6.4 systemfonts_1.0.4 webshot_0.5.5
+ [21] svglite_2.1.3     glue_1.6.2        R6_2.5.1          rgl_1.2.1
+ [25] rmarkdown_2.25    carData_3.0-5     car_3.1-2         magrittr_2.0.3
+ [29] codetools_0.2-19  scales_1.3.0      htmltools_0.5.7   MASS_7.3-59
+ [33] abind_1.4-5       rvest_1.0.3       colorspace_2.1-0  xtable_1.8-4
+ [37] stringi_1.7.12    munsell_0.5.0
+
+Simulations (for creating the ".RData" files) are run on in parallel on a Linex server 
+with the software versions:
+R version 4.1.2 (2021-11-01)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 22.04.3 LTS
+
+Matrix products: default
+BLAS: /usr/lib/x86_64-linux-gnu/blas/libblas.so.3.10.0
+LAPACK: /usr/lib/x86_64-linux-gnu/lapack/liblapack.so.3.10.0
+
+locale:
+  [1] LC_CTYPE=en_IN.UTF-8       LC_NUMERIC=C
+  [3] LC_TIME=en_IN.UTF-8        LC_COLLATE=en_IN.UTF-8
+  [5] LC_MONETARY=en_IN.UTF-8    LC_MESSAGES=en_IN.UTF-8
+  [7] LC_PAPER=en_IN.UTF-8       LC_NAME=C
+  [9] LC_ADDRESS=C               LC_TELEPHONE=C
+ [11] LC_MEASUREMENT=en_IN.UTF-8 LC_IDENTIFICATION=C
+
+attached base packages:
+ [1] parallel  stats    graphics  grDevices utils     datasets  methods
+ [8] base
+
+other attached packages:
+ [1] latex2exp_0.9.6   doParallel_1.0.17 iterators_1.0.14  foreach_1.5.2
+ [5] Iso_0.0-21
+
+loaded via a namespace (and not attached):
+  [1] codetools_0.2-18 digest_0.6.33    lifecycle_1.0.4   magrittr_2.0.3
+  [5] evaluate_0.23    rlang_1.1.2      stringi_1.8.3     cli_3.6.2
+  [9] vctrs_0.6.5      rmarkdown_2.25   tools_4.1.2       stringr_1.5.1
+ [13] glue_1.6.2       yaml_2.3.8       xfun_0.41         fastmap_1.1.1
+ [17] compiler_4.1.2   htmltools_0.5.7  knitr_1.45
+
+
+
+
 
 
 
