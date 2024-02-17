@@ -43,6 +43,14 @@ Taking the ".RData" files from the sub folder "intermediate_results", it creates
 results, tables and figures presented in the manuscript as well as in the Supplementary 
 Material of the manuscript.
 
+For reproducing the ".RData" files:
+Create a folder "intermediate_results" and set the working directory of the RStudio 
+to this folder. Then run the code lines "962-1188" from the 
+R script "master_script_results_analyses.R". The ".RData" files will be saved into the folder 
+"intermediate_results".
+
+
+
 Since computation of the whole simulation can take several hours, intermediate results 
 of the simulation are saved as ".RData" files into the folder "intermediate_results". For 
 faster computation, reduce the number of replicates, say, rep=500 (from the R scripts 
@@ -52,13 +60,8 @@ under windows. If the machine used for computation is not able to compute on 16 
 simultaneously, the number of cores used for simulation should be reduced by changing the 
 code line "cl<-makeCluster(16)" in the R scripts (i)-(vi).
     
-For reproducing the ".RData" files:
-Create a folder "intermediate_results" and set the working directory of the RStudio 
-to this folder. Then run the code lines "962-1188" from the 
-R script "master_script_results_analyses.R". The ".RData" files will be saved into the folder 
-"intermediate_results".
-    
 
+    
 
 The code is written in R with the following software versions:
 R version 4.2.3 (2023-03-15 ucrt)
