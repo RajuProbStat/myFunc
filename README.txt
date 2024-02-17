@@ -24,12 +24,12 @@ of the simulation and the subfolder "code_intermediate_results" contains the R s
 ("results_figure7_robustness.R", "results_figures.R", "results_supplementary_figures.R",
 results_table3.R and results_table4_table5.R) which have been used to produce these ".RData" files.
     
-**The subfolder** "reproduce_results" contains the files: "master_script_results_analyses.R",
+The subfolder "reproduce_results" contains the files: "master_script_results_analyses.R",
 "reproduce_results.Rmd" and "reproduce_results.pdf". The code lines "1-956" of the R script
 "master_script_results_analyses.R" takes the ".RData" files from the sub folder 
 "intermediate_results" and creates all the results, tables and figures presented in the 
 manuscript as well as in the Supplementary Material of the manuscript. The colde lines
-"962-1188" of the R script "master_script_results_analyses.R" produce all the .RData files
+"962-1188" of the R script "master_script_results_analyses.R" produce all the ".RData" files
 used for the intermediate results. To demonstrate the reproduced results for the manuscript 
 as well its Supplementary Material, the files "reproduce_results.Rmd" and
 "reproduce_results.pdf" have been made in Rmarkdown.
@@ -43,18 +43,17 @@ the manuscript.
 Since computation of the whole simulation can take several hours, intermediate results of the
 simulation are saved as ".RData" files into the folder "intermediate_results". For faster 
 computation, reduce the number of replicates, say, rep=500 (from the R scripts 
- belonging to the sub folder
-"code_intermediate_results"). The R scripts for creating these .RData files are performed in
-parallel on 16 cores on a linux server, but should also work 
+ belonging to the sub folder "code_intermediate_results"). The R scripts for creating these
+".RData" files are performed in parallel on 16 cores on a linux server, but should also work 
 under windows. If the machine used for computation is not able to compute on 16 cores 
 simultaneously, the number of cores used for simulation should be reduced by changing the 
 code line "cl<-makeCluster(16)" in the R scripts (i)-(vi).
     
     
-For reproducing the .RData files:
+For reproducing the ".RData" files:
 Create a folder "intermediate_results" and set the working directory of the RStudio 
 to this folder. Then run the code lines "962-1188" from the 
-R script "master_script_results_analyses.R". The .RData files will be saved into the folder 
+R script "master_script_results_analyses.R". The ".RData" files will be saved into the folder 
 "intermediate_results".
     
     "Table3_a3_b2.RData" has been used to reproduce the part a=3, b=2 of the Table 3.
