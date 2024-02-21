@@ -7,7 +7,7 @@ smsh@maths.iitkgp.ac.in
 
 In order to reproduce all the results, tables and figures presented in the manuscript and its 
 supplementary material we have made a folder "code_results" having the subfolders "code_functions",
-"code_intermediate_results", "intermediate_results", "reproduce_results", and the "README" file. 
+"code_intermediate_results", "intermediate_results", "reproduce_results", and the file "README". 
     
 The sub folder "code_functions" contains six R scripts and each script contains two functions, 
 the first function is for the test statistic Q_1 and the second one is for the test statistics 
@@ -31,8 +31,8 @@ The subfolder "reproduce_results" contains the files: "master_script_results_ana
 saved as the intermediate results. The R script "master_script_results_analyses.R" 
 (code lines "247-1189") takes the ".RData" files from the sub folder "intermediate_results" 
 and creates all the results, tables and figures presented in the manuscript and its
-supplementary Material of the manuscript. To demonstrate the reproduced results for 
-the manuscript as well its supplementary material, the files "reproduce_results.Rmd" and
+supplementary material. To demonstrate the reproduced results for the manuscript as well
+its supplementary material, the files "reproduce_results.Rmd" and
 "reproduce_results.pdf" have been made in Rmarkdown.
     
 
@@ -55,8 +55,8 @@ Since computation of the whole simulation can take several hours, intermediate r
 of the simulation are saved as ".RData" files into the folder "intermediate_results". For 
 faster computation, reduce the number of replicates, say, rep=500 (from the R scripts 
 belong the sub folder "code_intermediate_results"). The R scripts for creating these
-".RData" files are performed in parallel on 16 cores on a linux server, but should also work 
-under windows. If the machine used for computation is not able to compute on 16 cores 
+".RData" files are performed in parallel on 16 cores on a Linux server, but should also work 
+under Windows. If the machine used for computation is not able to compute on 16 cores 
 simultaneously, the number of cores used for simulation should be reduced by changing the 
 code line "cl<-makeCluster(16)" in the R scripts (i)-(vi).
     
