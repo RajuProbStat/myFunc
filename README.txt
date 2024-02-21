@@ -21,9 +21,8 @@ Q_2 and Q_3. The six R scripts are
 
 The sub folder "intermediate_results" contains ".RData" files of the intermediate results
 of the simulation and the subfolder "code_intermediate_results" contains the R scripts 
-("results_figure7_robustness.R", "results_figures.R", "results_supplementary_figures.R",
-"results_table3.R" and "results_table4_table5.R") which have been used to produce these
-".RData" files.
+("results_tables.R", "results_figures.R" and "results_supplementary_figures.R") which have 
+been used to produce these ".RData" files.
     
 The subfolder "reproduce_results" contains the files: "master_script_results_analyses.R",
 and "reproduce_results.pdf".  The R script "master_script_results_analyses.R" 
