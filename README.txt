@@ -1,11 +1,11 @@
-ultsSupplementary information / reproducible research files for the manuscript
+Supplementary information / reproducible research files for the manuscript
 Title: "Bootstrap Tests for Simultaneous Monotone Ordering of Effects in a Two-Way ANOVA"
 
 Authors: Raju Dey, Anjana Mondal and Somesh Kumar
 In case of questions or comments please contact rajudey.cob1997@gmail.com; mondal.anjana25@gmail.com;
 smsh@maths.iitkgp.ac.in
 
-In order to reproduce all the Results, Tables and Figures presented in the manuscript and its 
+In order to reproduce all the results, tables and figures presented in the manuscript and its 
 supplementary material we have made a folder "code_results" having the subfolders "code_functions",
 "code_intermediate_results", "intermediate_results", "reproduce_results", and the "README" file. 
     
@@ -32,7 +32,7 @@ saved as the intermediate results. The R script "master_script_results_analyses.
 (code lines "247-1189") takes the ".RData" files from the sub folder "intermediate_results" 
 and creates all the results, tables and figures presented in the manuscript and its
 supplementary Material of the manuscript. To demonstrate the reproduced results for 
-the manuscript as well its Supplementary Material, the files "reproduce_results.Rmd" and
+the manuscript as well its supplementary material, the files "reproduce_results.Rmd" and
 "reproduce_results.pdf" have been made in Rmarkdown.
     
 
