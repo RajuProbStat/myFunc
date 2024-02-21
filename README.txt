@@ -8,6 +8,7 @@ smsh@maths.iitkgp.ac.in
 In order to reproduce all the results, tables and figures presented in the manuscript and its 
 supplementary material we have made a folder "code_results" having the subfolders "code_functions",
 "code_intermediate_results", "intermediate_results", "reproduce_results", and the file "README". 
+
     
 The sub folder "code_functions" contains six R scripts and each script contains two functions, 
 the first function is for the test statistic Q_1 and the second one is for the test statistics 
@@ -19,35 +20,36 @@ Q_2 and Q_3. The six R scripts are
                       (v)   Q1_Q2_Q3_size_power_a_3_b_4.R 
                       (vi)  real_data_functions.R
 The functions inside the R script "Q1_Q2_Q3_robust_skewed_a_3_b_3.R" have been used to evaluate
-the size and power values of the test statistics Q_1, Q_2 and Q_3 for a=3, b=3 when the 
-distributions of the random observations are skewed (Weibull, exponential, log-normal, 
-chi-square, mixture-I, mixture-II).
+the size and power values of the test statistics Q_1, Q_2 and Q_3 when the distributions of 
+the random observations are skewed (Weibull, exponential, log-normal, chi-square, mixture-I, 
+mixture-II) and a=3, b=3.
 
 The functions inside the R script "Q1_Q2_Q3_robust_symmetric_a_3_b_3.R" have been used to 
-evaluate the size and power values of the test statistics Q_1, Q_2 and Q_3 for a=3, b=3 when 
-the distributions of the random observations are non-normal symmetric (t_5, Laplace, Cont. Normal,
-Uniform).
+evaluate the size and power values of the test statistics Q_1, Q_2 and Q_3 when the 
+distributions of the random observations are non-normal symmetric (t_5, Laplace, Cont. Normal,
+Uniform) and a=3, b=3.
 
 The functions inside the R script "Q1_Q2_Q3_size_power_a_3_b_2.R" have been used to evaluate
-the size and power values of the test statistics Q_1, Q_2 and Q_3 for a=3, b=2 when the 
-distributions of the random observations are normal.
+the size and power values of the test statistics Q_1, Q_2 and Q_3 when the distributions of 
+the random observations are normal and a=3, b=2.
 
 The functions inside the R script "Q1_Q2_Q3_size_power_a_3_b_2.R" have been used to evaluate
-the size and power values of the test statistics Q_1, Q_2 and Q_3 for a=3, b=3 when the 
-distributions of the random observations are normal.
+the size and power values of the test statistics Q_1, Q_2 and Q_3 when the distributions of
+the random observations are normal and a=3, b=3. 
 
 The functions inside the R script "Q1_Q2_Q3_size_power_a_3_b_4.R" have been used to evaluate
-the size and power values of the test statistics Q_1, Q_2 and Q_3 for a=3, b=4 when the 
-distributions of the random observations are normal.
+the size and power values of the test statistics Q_1, Q_2 and Q_3 when the distributions of
+the random observations are normal and a=3, b=4. 
 
 The functions inside the R script "real_data_functions.R" have been used to find the observed 
-test statistics values and critical values for the test sttaistics Q_1,Q_2 and Q_3.
+test statistics values and the critical values for the test staistics Q_1,Q_2 and Q_3.
 
 
 The sub folder "intermediate_results" contains ".RData" files of the intermediate results
 of the simulation and the subfolder "code_intermediate_results" contains the R scripts 
 ("results_tables.R", "results_figures.R" and "results_supplementary_figures.R") which have 
 been used to produce these ".RData" files.
+
     
 The subfolder "reproduce_results" contains the files: "master_script_results_analyses.R",
 and "reproduce_results.pdf".  The R script "master_script_results_analyses.R" 
