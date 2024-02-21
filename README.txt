@@ -19,6 +19,7 @@ Q_2 and Q_3. The six R scripts are
                       (iv)  Q1_Q2_Q3_size_power_a_3_b_3.R
                       (v)   Q1_Q2_Q3_size_power_a_3_b_4.R 
                       (vi)  real_data_functions.R
+
 The functions inside the R script "Q1_Q2_Q3_robust_skewed_a_3_b_3.R" have been used to evaluate
 the size and power values of the test statistics Q_1, Q_2 and Q_3 when the distributions of 
 the random observations are skewed (Weibull, exponential, log-normal, chi-square, mixture-I, 
