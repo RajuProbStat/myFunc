@@ -6,7 +6,7 @@ In case of questions or comments please contact rajudey.cob1997@gmail.com; monda
 smsh@maths.iitkgp.ac.in
 
 In order to reproduce all the Results, Tables and Figures presented in the manuscript and its 
-Supplementary material we have made a folder "code" having the subfolders "code_functions",
+supplementary material we have made a folder "code" having the subfolders "code_functions",
 "code_intermediate_results", "intermediate_results", "reproduce_results", and the "README" file. 
     
 The sub folder "code_functions" contains six R scripts and each script contains two functions, 
@@ -30,8 +30,8 @@ The subfolder "reproduce_results" contains the files: "master_script_results_ana
 "master_script_results_analyses.R" (code lines "8-234") produce all the ".RData" files
 saved as the intermediate results. The R script "master_script_results_analyses.R" 
 (code lines "247-1189") takes the ".RData" files from the sub folder "intermediate_results" 
-and creates all the results, tables and figures presented in the manuscript as well as in
-the Supplementary Material of the manuscript. To demonstrate the reproduced results for 
+and creates all the results, tables and figures presented in the manuscript and its
+supplementary Material of the manuscript. To demonstrate the reproduced results for 
 the manuscript as well its Supplementary Material, the files "reproduce_results.Rmd" and
 "reproduce_results.pdf" have been made in Rmarkdown.
     
@@ -43,12 +43,12 @@ R script "master_script_results_analyses.R". The ".RData" files will be saved in
 "intermediate_results".
 
 
-For reproducing all the results, tables and figures of the Manuscript and its Supplementary
-Material using .RData files: First save the folder "code_results" and set the working 
+For reproducing all the results, tables and figures of the manuscript and its supplementary
+material using .RData files: First save the folder "code_results" and set the working 
 directory of the RStudio to that folder and then run the code lines "247-1189" from the R 
 script "master_script_results_analyses.R". Taking the ".RData" files from the sub folder 
 "intermediate_results", it creates all the results, tables and figures presented in the 
-manuscript as well as in the Supplementary Material of the manuscript.
+manuscript as well as in the supplementary material of the manuscript.
 
 
 Since computation of the whole simulation can take several hours, intermediate results 
