@@ -1,4 +1,4 @@
-Supplementary information / reproducible research files for the manuscript
+ultsSupplementary information / reproducible research files for the manuscript
 Title: "Bootstrap Tests for Simultaneous Monotone Ordering of Effects in a Two-Way ANOVA"
 
 Authors: Raju Dey, Anjana Mondal and Somesh Kumar
@@ -6,7 +6,7 @@ In case of questions or comments please contact rajudey.cob1997@gmail.com; monda
 smsh@maths.iitkgp.ac.in
 
 In order to reproduce all the Results, Tables and Figures presented in the manuscript and its 
-supplementary material we have made a folder "code" having the subfolders "code_functions",
+supplementary material we have made a folder "code_results" having the subfolders "code_functions",
 "code_intermediate_results", "intermediate_results", "reproduce_results", and the "README" file. 
     
 The sub folder "code_functions" contains six R scripts and each script contains two functions, 
