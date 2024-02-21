@@ -48,7 +48,7 @@ given data sets.
 
 The sub folder "intermediate_results" contains ".RData" files of the intermediate results
 of the simulation and the subfolder "code_intermediate_results" contains the R scripts 
-("results_tables.R", "results_figures.R" and "results_supplementary_figures.R") which have 
+("results_figures.R", "results_supplementary_figures.R" and "results_tables.R") which have 
 been used to produce these ".RData" files.
 
     
