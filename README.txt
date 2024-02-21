@@ -42,7 +42,8 @@ the size and power values of the test statistics Q_1, Q_2 and Q_3 when the distr
 the random observations are normal and a=3, b=4. 
 
 The functions inside the R script "real_data_functions.R" have been used to find the observed 
-test statistics values and the critical values for the test staistics Q_1,Q_2 and Q_3.
+test statistics values and the critical values for the test staistics Q_1,Q_2 and Q_3 for a
+given data sets. 
 
 
 The sub folder "intermediate_results" contains ".RData" files of the intermediate results
