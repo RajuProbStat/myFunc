@@ -26,13 +26,12 @@ of the simulation and the subfolder "code_intermediate_results" contains the R s
 ".RData" files.
     
 The subfolder "reproduce_results" contains the files: "master_script_results_analyses.R",
-"reproduce_results.Rmd" and "reproduce_results.pdf".  The R script
-"master_script_results_analyses.R" (code lines "8-234") produce all the ".RData" files
-saved as the intermediate results. The R script "master_script_results_analyses.R" 
-(code lines "247-1189") takes the ".RData" files from the sub folder "intermediate_results" 
-and creates all the results, tables and figures presented in the manuscript and its
-supplementary material. To demonstrate the reproduced results for the manuscript as well
-its supplementary material, the files "reproduce_results.Rmd" and
+and "reproduce_results.pdf".  The R script "master_script_results_analyses.R" 
+(code lines "8-234") produce all the ".RData" files saved as the intermediate results. 
+The R script "master_script_results_analyses.R" (code lines "247-1189") takes the 
+".RData" files from the sub folder "intermediate_results" and creates all the results, 
+tables and figures presented in the manuscript and its supplementary material. 
+To demonstrate the reproduced results for the manuscript as well its supplementary material,
 "reproduce_results.pdf" have been made in Rmarkdown.
     
 
