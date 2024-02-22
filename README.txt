@@ -34,7 +34,7 @@ The functions inside the R script "Q1_Q2_Q3_size_power_a_3_b_2.R" have been used
 the size and power values of the test statistics Q_1, Q_2 and Q_3 when the distributions of 
 the random observations are normal and a=3, b=2.
 
-The functions inside the R script "Q1_Q2_Q3_size_power_a_3_b_2.R" have been used to evaluate
+The functions inside the R script "Q1_Q2_Q3_size_power_a_3_b_3.R" have been used to evaluate
 the size and power values of the test statistics Q_1, Q_2 and Q_3 when the distributions of
 the random observations are normal and a=3, b=3. 
 
