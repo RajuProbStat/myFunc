@@ -6,7 +6,7 @@ In case of questions or comments please contact rajudey.cob1997@gmail.com; monda
 smsh@maths.iitkgp.ac.in
 
 In order to reproduce all the results, tables and figures presented in the manuscript and its 
-supplementary material we have made a folder "code_results" having the subfolders "code_functions",
+supplementary material, we have made a folder "code_results" having the subfolders "code_functions",
 "code_intermediate_results", "intermediate_results", "reproduce_results", and the file "README". 
 
     
@@ -43,7 +43,7 @@ the size and power values of the test statistics Q_1, Q_2 and Q_3 when the distr
 the random observations are normal and a=3, b=4. 
 
 The functions inside the R script "real_data_functions.R" have been used to find the observed 
-test statistics values and the critical values for the test staistics Q_1, Q_2 and Q_3 for a
+test statistic values and the critical values of the test staistics Q_1, Q_2 and Q_3 for a
 given data set. 
 
 
