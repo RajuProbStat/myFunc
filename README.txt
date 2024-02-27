@@ -55,8 +55,8 @@ been used to produce these ".RData" files.
     
 The subfolder "reproduce_results" contains the files: "master_script_results_analyses.R",
 and "reproduce_results.pdf".  The R script "master_script_results_analyses.R" 
-(code lines "8-234") produce all the ".RData" files saved as the intermediate results. 
-The R script "master_script_results_analyses.R" (code lines "247-1189") takes the 
+(code lines "8-244") produce all the ".RData" files saved as the intermediate results. 
+The R script "master_script_results_analyses.R" (code lines "257-1199") takes the 
 ".RData" files from the sub folder "intermediate_results" and creates all the results, 
 tables and figures presented in the manuscript and its supplementary material. 
 To demonstrate the reproduced results for the manuscript as well its supplementary material,
@@ -65,14 +65,14 @@ To demonstrate the reproduced results for the manuscript as well its supplementa
 
 For reproducing the ".RData" files:
 Create a folder "intermediate_results" and set the working directory of the RStudio 
-to this folder. Then run the code lines "8-234" from the 
+to this folder. Then run the code lines "8-244" from the 
 R script "master_script_results_analyses.R". The ".RData" files will be saved into the folder 
 "intermediate_results".
 
 
 For reproducing all the results, tables and figures of the manuscript and its supplementary
 material using .RData files: First save the folder "code_results" and set the working 
-directory of the RStudio to that folder and then run the code lines "247-1189" from the R 
+directory of the RStudio to that folder and then run the code lines "257-1199" from the R 
 script "master_script_results_analyses.R". Taking the ".RData" files from the sub folder 
 "intermediate_results", it creates all the results, tables and figures presented in the 
 manuscript as well as in the supplementary material of the manuscript.
