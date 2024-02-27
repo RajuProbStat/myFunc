@@ -80,8 +80,8 @@ manuscript as well as in the supplementary material of the manuscript.
 
 Since computation of the whole simulation can take several hours, intermediate results 
 of the simulation are saved as ".RData" files into the folder "intermediate_results". For 
-faster computation, reduce the number of replicates, say, rep=500 (from the R scripts 
-belong the sub folder "code_intermediate_results"). The R scripts for creating these
+faster computation, reduce the number of replicates, say, rep=500 (in the R master script
+"master_script_results_analyses.R"). The R scripts for creating these
 ".RData" files are performed in parallel on 16 cores on a Linux server, but should also work 
 under Windows. If the machine used for computation is not able to compute on 16 cores 
 simultaneously, the number of cores used for simulation should be reduced by changing the 
